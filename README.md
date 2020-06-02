@@ -1,4 +1,4 @@
-The flag was hidden in one of the commit messages in the current branch's history. The commit message where it's hidden has the text "The flag was hidden here" in it.
+The flag is hidden 198 commits before this one.
 
-Find it.
+Find it, but don't start manually counting ¯\_(ツ)_/¯
 
