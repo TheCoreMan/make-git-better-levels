@@ -7,8 +7,13 @@ def print_something_cool():
 
     print(base64.b64decode(something_cool).decode())
 
+def print_another_cool_thing():
+    message = ""
+    print(message)
+
 def main():
     print_something_cool()
+    print_another_cool_thing()
 
 if __name__ == "__main__":
     main()
