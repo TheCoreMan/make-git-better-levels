@@ -11,9 +11,13 @@ def print_another_cool_thing():
     message = "You're cool (*/ω＼*)"
     print(message)
 
+def print_yet_another_thing():
+    # TODO
+
 def main():
     print_something_cool()
     print_another_cool_thing()
+    print_yet_another_thing()
 
 if __name__ == "__main__":
     main()
