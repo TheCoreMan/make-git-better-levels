@@ -12,7 +12,9 @@ def print_another_cool_thing():
     print(message)
 
 def print_yet_another_thing():
-    # TODO
+    process = subprocess.Popen(['git', '--version'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    stdout, stderr = process.communicate()
+    print("The current git version you're playing with is " + stdout.decode())
 
 def main():
     print_something_cool()
