@@ -17,6 +17,9 @@ def print_another_cool_thing():
     message = "You're cool (*/ω＼*)"
     print(message)
 
+def print_yet_another_thing():
+    pass  # will implement in another branch
+
 if __name__ == "__main__":
     main()
 
