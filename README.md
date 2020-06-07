@@ -1,4 +1,6 @@
-Take a look at the runme.py script. It's unfinished, and the rest of the work is in another **branch** (unconvincing-mesothermal-miles). But this time, things are even less harmonious. Don't panic!
+Take a look at the runme.py script. It's finished, but the name "runme.py" isn't very clear about what the script does. The script was given a better name in another **branch** (). 
 
-(You need to edit files to solve this level.)
+Merge the changes from that branch, ending up with: 
+- The new code from the reappraise-veratroyl-garfishes branch
+- The new name from the vicomtesses-apery-vanillin branch
 
