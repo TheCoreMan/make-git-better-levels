@@ -8,13 +8,13 @@ def print_all_resources():
     for resource_path in glob.glob("./runme_resources/*"):
         # Read the resource, decode it, and print the contents
         with open(resource_path, "r") as resource_file:
-            print("Resource " + resource_path + ":")
+            print("\n=== Printing resource " + resource_path + " ===\n")
             resource = resource_file.read()
             decoded_resource = base64.b64decode(resource).decode()
             print(decoded_resource)
 
 def main():
-    print("Script started")
+    print("Script started.")
     print_all_resources()
 
 if __name__ == "__main__":
