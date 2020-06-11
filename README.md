@@ -1,13 +1,12 @@
-# Welcome to make-git-better
+In this level, we have a **base** branch and a **topic** branch.
 
-If you made it so far, you're already doing great! 
+The base branch is		parallelizing-barnhardtite-base
+and the topic branch is		parallelizing-barnhardtite-topic
+See the difference:					   ^^^^^
 
-╰(*°▽°*)╯
+The base branch introduced the script which prints all the resources in the `runme_resources/` folder. 
 
-Now, to proceed - `git checkout` the branch named `start-here`, and then read me again.
+In the topic branch, we will need to add specific resources. To do this, run the `add_resources.sh` script and commit the new changes.
 
-## Useful tips
-
-- Make sure you have the CTF site handy. You can find it [here](https://mrnice.dev/).
-- You probably want to write down the flags you'll get for solving levels. Open up a notepad.
+We will get diverging histories. Instead of merging and pushing, we want to rebase the topic branch on the base branch, and push a clean, linear history.
 
