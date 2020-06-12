@@ -1,13 +1,4 @@
-# Welcome to make-git-better
+**For this stage, you must run the script setup_hooks_stage.sh first!**
 
-If you made it so far, you're already doing great! 
-
-╰(*°▽°*)╯
-
-Now, to proceed - `git checkout` the branch named `start-here`, and then read me again.
-
-## Useful tips
-
-- Make sure you have the CTF site handy. You can find it [here](https://mrnice.dev/).
-- You probably want to write down the flags you'll get for solving levels. Open up a notepad.
+You need to add more than 100 files into the `add_files_here` directory, and you can't do it in more than 3 commits. Shouldn't be too hard, should it?
 
