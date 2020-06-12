@@ -1,8 +1,9 @@
 #!/bin/bash
-echo "Setting up hooks-1..."
+echo "Setting up hooks-2..."
 
 pushd .git/hooks
-ln -s -f ../../githooks/pre-commit pre-commit
+ln -s -f ../../githooks/commit-msg commit-msg
+echo "In the local hooks directory. Contents:"
 ls -la
 popd
 
