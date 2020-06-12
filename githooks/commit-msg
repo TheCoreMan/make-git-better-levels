@@ -1,11 +1,13 @@
 #!/bin/sh
 set -e
+commit_msg=$(cat $1)
+echo "Commit message: "$commit_msg
 
-if grep -i "git is awesome" $1; then
-	echo "Write 'git is awesome' in your commit message"
-	exit 1
-else
+if echo $commit_msg | grep -iq ".*git is awesome.*"; then
 	echo "I agree; git is awesome!"
 	exit 0
+else
+	echo "Write 'git is awesome' in your commit message"
+	exit 1
 fi
 
