@@ -1,6 +1,7 @@
 #!/bin/sh
+set -e
 
-if [ grep -i "git is awesome" $1 ]; then
+if grep -i "git is awesome" $1; then
 	echo "Write 'git is awesome' in your commit message"
 	exit 1
 else
