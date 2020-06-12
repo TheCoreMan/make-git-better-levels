@@ -1,13 +1,8 @@
-# Welcome to make-git-better
+To pass this stage you'll need a file with the correct password. This work has ALREADY been pushed to a different fork of this repository, which you'll find at 
 
-If you made it so far, you're already doing great! 
+gamemaster@localhost:~/forked-ctf-repo
 
-╰(*°▽°*)╯
+You'll have to merge changes from the same branch on the remote.
 
-Now, to proceed - `git checkout` the branch named `start-here`, and then read me again.
-
-## Useful tips
-
-- Make sure you have the CTF site handy. You can find it [here](https://mrnice.dev/).
-- You probably want to write down the flags you'll get for solving levels. Open up a notepad.
+Note: no need to edit files in this stage, only git commands will suffice.
 
