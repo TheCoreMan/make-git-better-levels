@@ -8,5 +8,5 @@ _____  _    _  ___   ___________
  \___/  \/  \/\_| |_/\____/\_|    
                                   
                                
-There's a script called `capture_the_flag.py`. What else do you need? (=｀ω´=)
+There's a script called `capture_ze_flag.py`. What else do you need? (=｀ω´=)
 
