@@ -1,4 +1,4 @@
-flag_file_path = "/etc/owasp/flags/flag.txt"
+flag_file_path = "[REDACTED]"
 
 def main():
     print("Capturing a flag! How exciting.")
