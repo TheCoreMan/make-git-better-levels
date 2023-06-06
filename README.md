@@ -1,13 +1,11 @@
-# Welcome to make-git-better
+# rebase-2
 
-If you made it so far, you're already doing great! 
+In this level, the commits are all out of order.
+Reorder them using an interactive rebase, and push
+this branch with the commits in the correct order.
 
-╰(*°▽°*)╯
+The correct order is:
 
-Now, to proceed - `git checkout` the branch named `start-here`, and then read me again.
-
-## Useful tips
-
-- Make sure you have the CTF site handy. You can find it [here](https://mrnice.dev/).
-- You probably want to write down the flags you'll get for solving levels. Open up a notepad.
-
+> First base: Who
+> Second base: What
+> Third base: I Don't Know
